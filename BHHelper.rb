@@ -2,9 +2,6 @@ require 'selenium-webdriver'
 require 'rspec'
 
 module BHHelper
-  
-  username = 'email@email.com'
-  password = '123'
 
   def initialize_selenium
     @driver = Selenium::WebDriver.for :chrome
